@@ -17,8 +17,7 @@ public class EmployeeDAOImpl implements EmployeeDAO {
         String add = "insert into Employee1 values (?,?,?,?)";
         System.out.println(add);
         //int rows = template.update(add, employee.getId(), employee.getFirstName(), employee.getLastName(), employee.getSalary());
-        int rows = 1;
-        return rows;
+        return 1;
     }
 
     @Override
