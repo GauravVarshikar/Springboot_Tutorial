@@ -1,7 +1,6 @@
 package com.example.demo.controller;
 
 import com.example.demo.jdbc.EmployeeDAO;
-import com.example.demo.jdbc.EmployeeDAOImpl;
 import com.example.demo.pojo.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
